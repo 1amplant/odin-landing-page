@@ -79,6 +79,33 @@ button {
     flex-wrap: wrap;
 }
 
-img {
+.signup img {
  width: 300px;
+}
+
+h3 {
+ font-size: 36px;
+ font-weight: 900;
+ text-align: center;
+ margin:30px;
+}
+
+.information {
+ display:flex;
+ justify-content: center;
+ gap:40px;
+}
+
+.container img {
+ width: 130px;
+}
+
+.container {
+ width: 130px;
+ flex-wrap: wrap;
+}
+
+.container p {
+ text-align: center;
+ font-size: 14px;
 }
