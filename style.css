@@ -8,7 +8,9 @@
     vertical-align: baseline;
     background: transparent;
 }
-
+body {
+    font-family: 'Roboto';
+}
 
 .top {
  background-color: #1F2937;
@@ -141,4 +143,45 @@ h3 {
     margin-left: 500px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.signupcontainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    margin:80px 100px;
+    gap:60px;
+    border-radius: 8px;
+}
+
+.box div{
+    display: flex;
+    flex-direction: column;
+}
+
+.signupcontainer button {
+    border-color: white;
+    border-width: 2px;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882F6;
+}
+
+.action {
+    font-weight: 900;
+    color: white;
+    font-size: 17px;
+}
+
+.actiontext {
+ color: white;
+ font-weight: 100;
+ font-size: 15px;
 }
